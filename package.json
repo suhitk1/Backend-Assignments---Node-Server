@@ -1,10 +1,10 @@
 {
-  "name": "node-server-testing",
+  "name": "server-testing",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "mocha '__tests__/*.js' --reporter mochawesome --recursive  --timeout 60000 --exit"
+    "test": "mocha '__tests__/*.js' --reporter mochawesome --recursive  --timeout 60000 --exit",
+    "start": "node src/index.js"
   },
   "author": "",
   "license": "ISC",
@@ -15,5 +15,14 @@
     "chai": "^4.2.0",
     "chai-http": "^4.3.0",
     "mocha": "^8.2.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/suhitk1/Backend-Assignments---Node-Server.git"
+  },
+  "bugs": {
+    "url": "https://github.com/suhitk1/Backend-Assignments---Node-Server/issues"
+  },
+  "homepage": "https://github.com/suhitk1/Backend-Assignments---Node-Server#readme",
+  "description": ""
 }
